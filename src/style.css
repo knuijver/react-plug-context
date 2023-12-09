@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+dl,
+dd,
+dt {
+  font-size: 0.9rem;
+  line-height: 12pt;
+}
+dl {
+  margin: 0;
+  padding: 0.2em;
+  display: flex;
+  flex-direction: row;
+  border-bottom: dotted 1px #aaa;
+}
+dd {
+  color: slategray;
+  font-weight: bolder;
+}
+dt {
+  width: 20ch;
+  font-weight: bold;
+  color: blue;
+}
+dt::after {
+  content: ':';
+}
